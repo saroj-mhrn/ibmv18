@@ -1,0 +1,22 @@
+$breakpoints: (
+    'xs-phone': 375px,
+    'phone': 580px,
+    'tablet': 760px,
+    'desktop': 1000px,
+    'widescreen': 1240px,
+    'widescreen-lg': 1480px
+    );
+
+// keywords
+$media-expressions: (
+    'screen': 'screen',
+    'print': 'print',
+    'handheld': 'handheld',
+    'landscape': '(orientation: landscape)',
+    'portrait': '(orientation: portrait)',
+    'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+    'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+    );
+
+// ligatured operators ≥ ≤
+@import 'vendors/include-media';
